@@ -10,14 +10,12 @@
     "yargs": "^3.32.0"
   },
   "devDependencies": {
-    "coffee-script": "^1.10.0",
     "mocha": "^2.4.5",
     "chai": "^3.5.0",
     "rewire": "^2.5.1",
     "sinon": "^1.17.3"
     },
   "scripts": {
-    "prepublish": "coffee --compile --output lib/ src/",
     "test": "make test"
   },
   "bin": {
